@@ -3,13 +3,55 @@ body {
     display: block;
     margin: 8px;
     background-color: lightgrey;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline: solid;
+    outline-color: darkseagreen;
+    outline-width: 150px;
+    border-radius: 25px;
+    
 }
 
 #mainHeading {
-background-color: burlywood;
 text-align: center;
+background-color: #dce7f2;
+color: red;
+padding: 30px;
+margin-top: 50px;
+margin-left: 100px;
+margin-right: 100px;
+border-radius: 25px;
 }
 
-#p.funParagraph{
-color: indigo;
+p.funParagraph{
+color: green;
+}
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 25px;
+}
+
+article {
+    background-color: #dce7f2;
+    padding: 15px;
+    border-radius: 25px;
+    max-width: 100%;
+}
+
+img {
+    border-radius: 25px;
+}
+
+figcaption {
+    font-size: small;
+    font-style: italic;
+    color: darkslategray;
+}
+
+footer{
+    padding: 10px;
 }
